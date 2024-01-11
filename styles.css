@@ -23,11 +23,14 @@ body{
     position: relative;  
     width: 320px;  
     height: 450px;  
-    background: #d70571;  
+    background: #359635;  
     border-radius: 20px;  
     overflow: hidden;  
     border-radius: 10px;
     border-color: #ff0 10px;
+    display: inline;
+    padding: 25px;
+    margin: 25px;
     
   }  
   .container .card:before {  
@@ -37,7 +40,7 @@ body{
     left: 0;  
     width: 100%;  
     height: 100%;  
-    background: #fd5e02;  
+    background: #ffbb00;  
     clip-path: circle(150px at 80% 20%);  
     transition: 0.5s ease-in-out;  
   }  
